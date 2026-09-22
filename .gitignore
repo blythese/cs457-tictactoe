@@ -148,6 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+.venv/
 .env
 .envrc
 .venv
@@ -216,3 +217,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# CML / Packet Capture / Build artifacts
+*.pcap
+build/
+dist/

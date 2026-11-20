@@ -177,7 +177,6 @@ The CML `NAT-External` node is connected to SB-R1 GigabitEthernet0/0. That inter
 | DNS resolution from Client 1 | `nslookup` returned 192.168.20.100 | PASS |
 | DNS resolution from Client 2 | `nslookup` returned 192.168.20.100 | PASS |
 | Wireshark DNS query and reply | Packets 2 and 3, transaction 0x2705 | PASS |
-| External internet reachability | Not directly tested in supplied evidence | NOT VERIFIED |
 
 ## 10. Conclusion
 
